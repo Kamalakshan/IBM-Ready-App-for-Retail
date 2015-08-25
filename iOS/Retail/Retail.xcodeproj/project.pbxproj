@@ -140,8 +140,8 @@
 		6E2066911B8CDF2800CA57F2 /* SharedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20660C1B8CDF2800CA57F2 /* SharedConstants.swift */; };
 		6E2066921B8CDF2800CA57F2 /* WatchUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20660D1B8CDF2800CA57F2 /* WatchUtils.swift */; };
 		6E2066931B8CDF2800CA57F2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E20660F1B8CDF2800CA57F2 /* Info.plist */; };
-		6E2066941B8CDF2800CA57F2 /* ReadyAppRetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2066101B8CDF2800CA57F2 /* ReadyAppRetailTests.swift */; };
-		6E2066951B8CDF2800CA57F2 /* SyntaxCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2066111B8CDF2800CA57F2 /* SyntaxCheckerTests.swift */; };
+		6E2066961B8CEAFA00CA57F2 /* RetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2066101B8CDF2800CA57F2 /* RetailTests.swift */; };
+		6E2066971B8CEB0A00CA57F2 /* SyntaxCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2066111B8CDF2800CA57F2 /* SyntaxCheckerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -414,7 +414,7 @@
 		6E2065CA1B8CDF2800CA57F2 /* ItemMetaDataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemMetaDataObject.swift; sourceTree = "<group>"; };
 		6E2065CB1B8CDF2800CA57F2 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		6E2065CC1B8CDF2800CA57F2 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		6E2065CD1B8CDF2800CA57F2 /* ReadyAppRetail-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ReadyAppRetail-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E2065CD1B8CDF2800CA57F2 /* Retail-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Retail-Bridging-Header.h"; sourceTree = "<group>"; };
 		6E2065D11B8CDF2800CA57F2 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		6E2065D21B8CDF2800CA57F2 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
 		6E2065D31B8CDF2800CA57F2 /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
@@ -465,7 +465,7 @@
 		6E20660C1B8CDF2800CA57F2 /* SharedConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedConstants.swift; sourceTree = "<group>"; };
 		6E20660D1B8CDF2800CA57F2 /* WatchUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchUtils.swift; sourceTree = "<group>"; };
 		6E20660F1B8CDF2800CA57F2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E2066101B8CDF2800CA57F2 /* ReadyAppRetailTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadyAppRetailTests.swift; sourceTree = "<group>"; };
+		6E2066101B8CDF2800CA57F2 /* RetailTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetailTests.swift; sourceTree = "<group>"; };
 		6E2066111B8CDF2800CA57F2 /* SyntaxCheckerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxCheckerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -538,7 +538,7 @@
 				6E2065C61B8CDF2800CA57F2 /* Images.xcassets */,
 				6E2065C71B8CDF2800CA57F2 /* Info.plist */,
 				6E2065C81B8CDF2800CA57F2 /* Models */,
-				6E2065CD1B8CDF2800CA57F2 /* ReadyAppRetail-Bridging-Header.h */,
+				6E2065CD1B8CDF2800CA57F2 /* Retail-Bridging-Header.h */,
 				6E2065CE1B8CDF2800CA57F2 /* Resources */,
 				6E2065D41B8CDF2800CA57F2 /* Segues */,
 				6E2065D61B8CDF2800CA57F2 /* Utilities */,
@@ -1056,7 +1056,7 @@
 			isa = PBXGroup;
 			children = (
 				6E20660F1B8CDF2800CA57F2 /* Info.plist */,
-				6E2066101B8CDF2800CA57F2 /* ReadyAppRetailTests.swift */,
+				6E2066101B8CDF2800CA57F2 /* RetailTests.swift */,
 				6E2066111B8CDF2800CA57F2 /* SyntaxCheckerTests.swift */,
 			);
 			path = RetailTests;
@@ -1310,7 +1310,6 @@
 				6E20661D1B8CDF2800CA57F2 /* HorizontalPagedCollectionViewController.swift in Sources */,
 				6E20663F1B8CDF2800CA57F2 /* UIImage+MultiFormat.m in Sources */,
 				6E20661E1B8CDF2800CA57F2 /* ListItemsTableViewController.swift in Sources */,
-				6E2066941B8CDF2800CA57F2 /* ReadyAppRetailTests.swift in Sources */,
 				6E2066711B8CDF2800CA57F2 /* BlankTableViewCell.swift in Sources */,
 				6E2066251B8CDF2800CA57F2 /* ProfileViewController.swift in Sources */,
 				6E20663D1B8CDF2800CA57F2 /* UIButton+WebCache.m in Sources */,
@@ -1325,7 +1324,6 @@
 				6E2066691B8CDF2800CA57F2 /* MQAExceptionHandler.m in Sources */,
 				6E2066361B8CDF2800CA57F2 /* SDImageCache.m in Sources */,
 				6E2066171B8CDF2800CA57F2 /* AddToListTableViewController.swift in Sources */,
-				6E2066951B8CDF2800CA57F2 /* SyntaxCheckerTests.swift in Sources */,
 				6E2066681B8CDF2800CA57F2 /* ListTableViewControllerHelper.swift in Sources */,
 				6E2066871B8CDF2800CA57F2 /* ProductOverviewInterfaceController.swift in Sources */,
 				6E20663B1B8CDF2800CA57F2 /* SDWebImageManager.m in Sources */,
@@ -1374,6 +1372,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2066971B8CEB0A00CA57F2 /* SyntaxCheckerTests.swift in Sources */,
+				6E2066961B8CEAFA00CA57F2 /* RetailTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1524,7 +1524,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = ReadyAppRetail/ReadyAppRetail.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Retail/Retail.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "${SDKROOT}/ResourceRules.plist";
@@ -1540,7 +1540,7 @@
 				);
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
-				INFOPLIST_FILE = ReadyAppRetail/Info.plist;
+				INFOPLIST_FILE = Retail/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1556,7 +1556,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "ReadyAppRetail/ReadyAppRetail-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Retail/Retail-Bridging-Header.h";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/ReadyAppRetail/ExternalLibraries/WorklightAPI/include";
 			};
 			name = Debug;
@@ -1567,7 +1567,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = ReadyAppRetail/ReadyAppRetail.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Retail/Retail.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "${SDKROOT}/ResourceRules.plist";
@@ -1581,7 +1581,7 @@
 					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI/Frameworks",
 					"$(PROJECT_DIR)/Retail/ExternalLibraries/XtifyLib/XtifyPush.embeddedframework",
 				);
-				INFOPLIST_FILE = ReadyAppRetail/Info.plist;
+				INFOPLIST_FILE = Retail/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1597,7 +1597,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "ReadyAppRetail/ReadyAppRetail-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Retail/Retail-Bridging-Header.h";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/ReadyAppRetail/ExternalLibraries/WorklightAPI/include";
 			};
 			name = Release;
@@ -1651,8 +1651,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries/WorklightAPI/Frameworks",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI/Frameworks",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1664,13 +1664,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries/WorklightAPI",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "ReadyAppRetail/ReadyAppRetail-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Retail/Retail-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -1684,8 +1684,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries/WorklightAPI/Frameworks",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI/Frameworks",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Retail WatchKit Extension/Info.plist";
@@ -1693,13 +1693,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries/WorklightAPI",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "ReadyAppRetail/ReadyAppRetail-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Retail/Retail-Bridging-Header.h";
 			};
 			name = Release;
 		};
