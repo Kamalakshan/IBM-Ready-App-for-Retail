@@ -1758,7 +1758,7 @@
 				);
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
-				INFOPLIST_FILE = Retail/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Retail/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1799,7 +1799,7 @@
 					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI/Frameworks",
 					"$(PROJECT_DIR)/Retail/ExternalLibraries/XtifyLib/XtifyPush.embeddedframework",
 				);
-				INFOPLIST_FILE = Retail/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Retail/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
