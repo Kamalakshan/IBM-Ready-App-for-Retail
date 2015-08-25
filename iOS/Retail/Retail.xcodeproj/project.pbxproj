@@ -86,7 +86,6 @@
 		6E20665B1B8CDF2800CA57F2 /* silence.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6E2065C41B8CDF2800CA57F2 /* silence.caf */; };
 		6E20665C1B8CDF2800CA57F2 /* XtifyPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2065C51B8CDF2800CA57F2 /* XtifyPush.framework */; };
 		6E20665D1B8CDF2800CA57F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2065C61B8CDF2800CA57F2 /* Images.xcassets */; };
-		6E20665E1B8CDF2800CA57F2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E2065C71B8CDF2800CA57F2 /* Info.plist */; };
 		6E20665F1B8CDF2800CA57F2 /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2065C91B8CDF2800CA57F2 /* BeaconManager.swift */; };
 		6E2066601B8CDF2800CA57F2 /* ItemMetaDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2065CA1B8CDF2800CA57F2 /* ItemMetaDataObject.swift */; };
 		6E2066611B8CDF2800CA57F2 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2065CB1B8CDF2800CA57F2 /* List.swift */; };
@@ -142,6 +141,7 @@
 		6E2066931B8CDF2800CA57F2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E20660F1B8CDF2800CA57F2 /* Info.plist */; };
 		6E2066961B8CEAFA00CA57F2 /* RetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2066101B8CDF2800CA57F2 /* RetailTests.swift */; };
 		6E2066971B8CEB0A00CA57F2 /* SyntaxCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2066111B8CDF2800CA57F2 /* SyntaxCheckerTests.swift */; };
+		6E4D17F61B8D0CC30055DCCB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D17F51B8D0CC30055DCCB /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -409,7 +409,6 @@
 		6E2065C41B8CDF2800CA57F2 /* silence.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = silence.caf; sourceTree = "<group>"; };
 		6E2065C51B8CDF2800CA57F2 /* XtifyPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XtifyPush.framework; sourceTree = "<group>"; };
 		6E2065C61B8CDF2800CA57F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6E2065C71B8CDF2800CA57F2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E2065C91B8CDF2800CA57F2 /* BeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
 		6E2065CA1B8CDF2800CA57F2 /* ItemMetaDataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemMetaDataObject.swift; sourceTree = "<group>"; };
 		6E2065CB1B8CDF2800CA57F2 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
@@ -467,6 +466,7 @@
 		6E2066101B8CDF2800CA57F2 /* RetailTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetailTests.swift; sourceTree = "<group>"; };
 		6E2066111B8CDF2800CA57F2 /* SyntaxCheckerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxCheckerTests.swift; sourceTree = "<group>"; };
 		6E4D17F41B8D0C2A0055DCCB /* Retail-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Retail-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E4D17F51B8D0CC30055DCCB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -536,7 +536,6 @@
 				6E2064F51B8CDF2800CA57F2 /* Main.strings */,
 				6E2064F71B8CDF2800CA57F2 /* ExternalLibraries */,
 				6E2065C61B8CDF2800CA57F2 /* Images.xcassets */,
-				6E2065C71B8CDF2800CA57F2 /* Info.plist */,
 				6E2065C81B8CDF2800CA57F2 /* Models */,
 				6E2065CE1B8CDF2800CA57F2 /* Resources */,
 				6E2065D41B8CDF2800CA57F2 /* Segues */,
@@ -1065,6 +1064,7 @@
 		6E4D17F31B8D0C2A0055DCCB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6E4D17F51B8D0CC30055DCCB /* Info.plist */,
 				6E4D17F41B8D0C2A0055DCCB /* Retail-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
@@ -1220,7 +1220,6 @@
 				6E2066451B8CDF2800CA57F2 /* SVProgressHUD.bundle in Resources */,
 				6E2066501B8CDF2800CA57F2 /* CompanyInboxVC-pad.xib in Resources */,
 				6E20668E1B8CDF2800CA57F2 /* PushNotificationPayload.apns in Resources */,
-				6E20665E1B8CDF2800CA57F2 /* Info.plist in Resources */,
 				6E2066651B8CDF2800CA57F2 /* Oswald-Light.ttf in Resources */,
 				6E20667C1B8CDF2800CA57F2 /* ListTableViewCell.xib in Resources */,
 				6E2066881B8CDF2800CA57F2 /* Images.xcassets in Resources */,
@@ -1228,6 +1227,7 @@
 				6E2066581B8CDF2800CA57F2 /* expireMsgTemplate.html in Resources */,
 				6E20664D1B8CDF2800CA57F2 /* CompanyDetailsVC.xib in Resources */,
 				6E2066931B8CDF2800CA57F2 /* Info.plist in Resources */,
+				6E4D17F61B8D0CC30055DCCB /* Info.plist in Resources */,
 				6E20662B1B8CDF2800CA57F2 /* Main.strings in Resources */,
 				6E2066801B8CDF2800CA57F2 /* Images.xcassets in Resources */,
 				6E2066781B8CDF2800CA57F2 /* HorizontalPagedCollectionViewCell.xib in Resources */,
