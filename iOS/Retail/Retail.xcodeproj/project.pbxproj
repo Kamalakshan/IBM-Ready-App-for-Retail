@@ -1530,10 +1530,10 @@
 				CODE_SIGN_RESOURCE_RULES_PATH = "${SDKROOT}/ResourceRules.plist";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries/XtifyLib/XtifyPush.embeddedframework",
-					"$(PROJECT_DIR)/ReadyAppRetail/Frameworks",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries/WorklightAPI/Frameworks",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries/XtifyLib/XtifyPush.embeddedframework",
+					"$(PROJECT_DIR)/Retail/Frameworks",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI/Frameworks",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries",
 					"$(PROJECT_DIR)/Retail/ExternalLibraries",
 					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI/Frameworks",
 					"$(PROJECT_DIR)/Retail/ExternalLibraries/XtifyLib/XtifyPush.embeddedframework",
@@ -1545,8 +1545,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries/WorklightAPI",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries/EstimoteSDK",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries/EstimoteSDK",
 					"$(PROJECT_DIR)/Retail/ExternalLibraries/EstimoteSDK",
 					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI",
 				);
@@ -1557,7 +1557,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Retail/Retail-Bridging-Header.h";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/ReadyAppRetail/ExternalLibraries/WorklightAPI/include";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Retail/ExternalLibraries/WorklightAPI/include";
 			};
 			name = Debug;
 		};
@@ -1573,10 +1573,10 @@
 				CODE_SIGN_RESOURCE_RULES_PATH = "${SDKROOT}/ResourceRules.plist";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries/XtifyLib/XtifyPush.embeddedframework",
-					"$(PROJECT_DIR)/ReadyAppRetail/Frameworks",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries/WorklightAPI/Frameworks",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries/XtifyLib/XtifyPush.embeddedframework",
+					"$(PROJECT_DIR)/Retail/Frameworks",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI/Frameworks",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries",
 					"$(PROJECT_DIR)/Retail/ExternalLibraries",
 					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI/Frameworks",
 					"$(PROJECT_DIR)/Retail/ExternalLibraries/XtifyLib/XtifyPush.embeddedframework",
@@ -1586,8 +1586,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries/WorklightAPI",
-					"$(PROJECT_DIR)/ReadyAppRetail/ExternalLibraries/EstimoteSDK",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI",
+					"$(PROJECT_DIR)/Retail/ExternalLibraries/EstimoteSDK",
 					"$(PROJECT_DIR)/Retail/ExternalLibraries/EstimoteSDK",
 					"$(PROJECT_DIR)/Retail/ExternalLibraries/WorklightAPI",
 				);
@@ -1598,7 +1598,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Retail/Retail-Bridging-Header.h";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/ReadyAppRetail/ExternalLibraries/WorklightAPI/include";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Retail/ExternalLibraries/WorklightAPI/include";
 			};
 			name = Release;
 		};
