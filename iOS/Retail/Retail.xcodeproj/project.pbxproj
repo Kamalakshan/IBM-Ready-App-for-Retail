@@ -585,20 +585,15 @@
 		6E2064F71B8CDF2800CA57F2 /* ExternalLibraries */ = {
 			isa = PBXGroup;
 			children = (
-				6E2064F81B8CDF2800CA57F2 /* EstimoteSDK */,
+				6E4D17F71B8D0D100055DCCB /* MMWormhole */,
 				6E2065131B8CDF2800CA57F2 /* KeychainWrapper.swift */,
-				6E2065141B8CDF2800CA57F2 /* MMWormhole.h */,
-				6E2065151B8CDF2800CA57F2 /* MMWormhole.m */,
-				6E2065161B8CDF2800CA57F2 /* MMWormholeCoordinatedFileTransiting.h */,
-				6E2065171B8CDF2800CA57F2 /* MMWormholeCoordinatedFileTransiting.m */,
-				6E2065181B8CDF2800CA57F2 /* MMWormholeFileTransiting.h */,
-				6E2065191B8CDF2800CA57F2 /* MMWormholeFileTransiting.m */,
 				6E20651A1B8CDF2800CA57F2 /* Q4M-Production.framework */,
 				6E20651B1B8CDF2800CA57F2 /* Realm.framework */,
-				6E20651C1B8CDF2800CA57F2 /* RLMSupport.swift */,
-				6E20651D1B8CDF2800CA57F2 /* SDWebImage */,
-				6E20653F1B8CDF2800CA57F2 /* SVProgressHUD */,
 				6E2065451B8CDF2800CA57F2 /* SwiftyJSON.swift */,
+				6E20653F1B8CDF2800CA57F2 /* SVProgressHUD */,
+				6E2064F81B8CDF2800CA57F2 /* EstimoteSDK */,
+				6E20651D1B8CDF2800CA57F2 /* SDWebImage */,
+				6E20651C1B8CDF2800CA57F2 /* RLMSupport.swift */,
 				6E2065461B8CDF2800CA57F2 /* WorklightAPI */,
 				6E20659E1B8CDF2800CA57F2 /* XtifyLib */,
 			);
