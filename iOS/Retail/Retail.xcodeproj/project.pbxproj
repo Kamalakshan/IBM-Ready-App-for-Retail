@@ -536,6 +536,7 @@
 				6E2064F51B8CDF2800CA57F2 /* Main.strings */,
 				6E2064F71B8CDF2800CA57F2 /* ExternalLibraries */,
 				6E2065C61B8CDF2800CA57F2 /* Images.xcassets */,
+				6E4D183E1B8D14DF0055DCCB /* html */,
 				6E2065C81B8CDF2800CA57F2 /* Models */,
 				6E2065CE1B8CDF2800CA57F2 /* Resources */,
 				6E2065D41B8CDF2800CA57F2 /* Segues */,
@@ -1076,6 +1077,43 @@
 				6E4D17FD1B8D0D100055DCCB /* MMWormholeFileTransiting.m */,
 			);
 			path = MMWormhole;
+			sourceTree = "<group>";
+		};
+		6E4D183E1B8D14DF0055DCCB /* html */ = {
+			isa = PBXGroup;
+			children = (
+				6E4D183F1B8D14DF0055DCCB /* angular-animate.js */,
+				6E4D18401B8D14DF0055DCCB /* angular-route.js */,
+				6E4D18411B8D14DF0055DCCB /* angular-touch.js */,
+				6E4D18421B8D14DF0055DCCB /* angular-translate.js */,
+				6E4D18431B8D14DF0055DCCB /* angular.js */,
+				6E4D18441B8D14DF0055DCCB /* arrow-down.png */,
+				6E4D18451B8D14DF0055DCCB /* arrow-forward.png */,
+				6E4D18461B8D14DF0055DCCB /* arrow-up.png */,
+				6E4D18471B8D14DF0055DCCB /* color-picker.js */,
+				6E4D18481B8D14DF0055DCCB /* drop-down.js */,
+				6E4D18491B8D14DF0055DCCB /* i18n.js */,
+				6E4D184A1B8D14DF0055DCCB /* image-preloader-factory.js */,
+				6E4D184B1B8D14DF0055DCCB /* index.html */,
+				6E4D184C1B8D14DF0055DCCB /* index.js */,
+				6E4D184D1B8D14DF0055DCCB /* jquery.js */,
+				6E4D184E1B8D14DF0055DCCB /* mil-ctrl.js */,
+				6E4D184F1B8D14DF0055DCCB /* OpenSans-Regular.ttf */,
+				6E4D18501B8D14DF0055DCCB /* OpenSans-Semibold.ttf */,
+				6E4D18511B8D14DF0055DCCB /* Oswald-Regular.ttf */,
+				6E4D18521B8D14DF0055DCCB /* placeholder.png */,
+				6E4D18531B8D14DF0055DCCB /* product-details-ctrl.js */,
+				6E4D18541B8D14DF0055DCCB /* product-details.html */,
+				6E4D18551B8D14DF0055DCCB /* rating-viewer.js */,
+				6E4D18561B8D14DF0055DCCB /* routing.js */,
+				6E4D18571B8D14DF0055DCCB /* star_lg_grey.png */,
+				6E4D18581B8D14DF0055DCCB /* star_lg_yellow.png */,
+				6E4D18591B8D14DF0055DCCB /* star_sm_grey.png */,
+				6E4D185A1B8D14DF0055DCCB /* star_sm_yellow.png */,
+				6E4D185B1B8D14DF0055DCCB /* style.css */,
+				6E4D185C1B8D14DF0055DCCB /* text-expander.js */,
+			);
+			path = html;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
