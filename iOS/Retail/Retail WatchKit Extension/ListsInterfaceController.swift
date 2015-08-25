@@ -8,9 +8,9 @@ import Foundation
 
 class ListsInterfaceController: WKInterfaceController {
     
-    func init() {
+    override init() {
         var request = ListsDataRequest()
-        ParentAppDataManager.sharedInstance.execute(request, retry: true)
+        ParentAppDataManager.sharedInstance.execute(request, retry: true, result: nil)
     }
     
     // Allows interface update, given a context

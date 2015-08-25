@@ -94,7 +94,7 @@ static CompanyCustomInbox* mSampleCustomInbox = nil;
                                                       delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:action, nil];
             }
             [alertView show];
-            [alertView	 release];
+            [alertView release];
         }
         else // no alert just get the message and display
         {
