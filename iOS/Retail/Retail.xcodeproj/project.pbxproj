@@ -414,7 +414,6 @@
 		6E2065CA1B8CDF2800CA57F2 /* ItemMetaDataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemMetaDataObject.swift; sourceTree = "<group>"; };
 		6E2065CB1B8CDF2800CA57F2 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		6E2065CC1B8CDF2800CA57F2 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		6E2065CD1B8CDF2800CA57F2 /* Retail-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Retail-Bridging-Header.h"; sourceTree = "<group>"; };
 		6E2065D11B8CDF2800CA57F2 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		6E2065D21B8CDF2800CA57F2 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
 		6E2065D31B8CDF2800CA57F2 /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
@@ -467,6 +466,7 @@
 		6E20660F1B8CDF2800CA57F2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E2066101B8CDF2800CA57F2 /* RetailTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetailTests.swift; sourceTree = "<group>"; };
 		6E2066111B8CDF2800CA57F2 /* SyntaxCheckerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxCheckerTests.swift; sourceTree = "<group>"; };
+		6E4D17F41B8D0C2A0055DCCB /* Retail-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Retail-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -504,11 +504,11 @@
 		1B5533B11A5EF9A1006DAECE = {
 			isa = PBXGroup;
 			children = (
+				34D21B601A8130480085138E /* libc++.dylib */,
 				6E2064D61B8CDF2800CA57F2 /* Retail */,
 				6E2065F51B8CDF2800CA57F2 /* Retail WatchKit App */,
 				6E2065FB1B8CDF2800CA57F2 /* Retail WatchKit Extension */,
 				6E20660E1B8CDF2800CA57F2 /* RetailTests */,
-				34D21B601A8130480085138E /* libc++.dylib */,
 				1B5533BB1A5EF9A1006DAECE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -538,9 +538,9 @@
 				6E2065C61B8CDF2800CA57F2 /* Images.xcassets */,
 				6E2065C71B8CDF2800CA57F2 /* Info.plist */,
 				6E2065C81B8CDF2800CA57F2 /* Models */,
-				6E2065CD1B8CDF2800CA57F2 /* Retail-Bridging-Header.h */,
 				6E2065CE1B8CDF2800CA57F2 /* Resources */,
 				6E2065D41B8CDF2800CA57F2 /* Segues */,
+				6E4D17F31B8D0C2A0055DCCB /* Supporting Files */,
 				6E2065D61B8CDF2800CA57F2 /* Utilities */,
 				6E2065E41B8CDF2800CA57F2 /* Views */,
 				6E2065F41B8CDF2800CA57F2 /* worklight.plist */,
@@ -1060,6 +1060,14 @@
 				6E2066111B8CDF2800CA57F2 /* SyntaxCheckerTests.swift */,
 			);
 			path = RetailTests;
+			sourceTree = "<group>";
+		};
+		6E4D17F31B8D0C2A0055DCCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E4D17F41B8D0C2A0055DCCB /* Retail-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
