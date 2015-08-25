@@ -38,9 +38,6 @@
 		6E20662B1B8CDF2800CA57F2 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E2064F51B8CDF2800CA57F2 /* Main.strings */; };
 		6E20662C1B8CDF2800CA57F2 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2065121B8CDF2800CA57F2 /* libEstimoteSDK.a */; };
 		6E20662D1B8CDF2800CA57F2 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2065131B8CDF2800CA57F2 /* KeychainWrapper.swift */; };
-		6E20662E1B8CDF2800CA57F2 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2065151B8CDF2800CA57F2 /* MMWormhole.m */; };
-		6E20662F1B8CDF2800CA57F2 /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2065171B8CDF2800CA57F2 /* MMWormholeCoordinatedFileTransiting.m */; };
-		6E2066301B8CDF2800CA57F2 /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2065191B8CDF2800CA57F2 /* MMWormholeFileTransiting.m */; };
 		6E2066311B8CDF2800CA57F2 /* Q4M-Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E20651A1B8CDF2800CA57F2 /* Q4M-Production.framework */; };
 		6E2066321B8CDF2800CA57F2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E20651B1B8CDF2800CA57F2 /* Realm.framework */; };
 		6E2066331B8CDF2800CA57F2 /* RLMSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20651C1B8CDF2800CA57F2 /* RLMSupport.swift */; };
@@ -142,6 +139,9 @@
 		6E2066961B8CEAFA00CA57F2 /* RetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2066101B8CDF2800CA57F2 /* RetailTests.swift */; };
 		6E2066971B8CEB0A00CA57F2 /* SyntaxCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2066111B8CDF2800CA57F2 /* SyntaxCheckerTests.swift */; };
 		6E4D17F61B8D0CC30055DCCB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D17F51B8D0CC30055DCCB /* Info.plist */; };
+		6E4D17FE1B8D0D100055DCCB /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D17F91B8D0D100055DCCB /* MMWormhole.m */; };
+		6E4D17FF1B8D0D100055DCCB /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D17FB1B8D0D100055DCCB /* MMWormholeCoordinatedFileTransiting.m */; };
+		6E4D18001B8D0D100055DCCB /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D17FD1B8D0D100055DCCB /* MMWormholeFileTransiting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,12 +241,6 @@
 		6E2065111B8CDF2800CA57F2 /* ESTTriggerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTTriggerManager.h; sourceTree = "<group>"; };
 		6E2065121B8CDF2800CA57F2 /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEstimoteSDK.a; sourceTree = "<group>"; };
 		6E2065131B8CDF2800CA57F2 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
-		6E2065141B8CDF2800CA57F2 /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormhole.h; sourceTree = "<group>"; };
-		6E2065151B8CDF2800CA57F2 /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
-		6E2065161B8CDF2800CA57F2 /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
-		6E2065171B8CDF2800CA57F2 /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
-		6E2065181B8CDF2800CA57F2 /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeFileTransiting.h; sourceTree = "<group>"; };
-		6E2065191B8CDF2800CA57F2 /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeFileTransiting.m; sourceTree = "<group>"; };
 		6E20651A1B8CDF2800CA57F2 /* Q4M-Production.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Q4M-Production.framework"; sourceTree = "<group>"; };
 		6E20651B1B8CDF2800CA57F2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		6E20651C1B8CDF2800CA57F2 /* RLMSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLMSupport.swift; sourceTree = "<group>"; };
@@ -467,6 +461,12 @@
 		6E2066111B8CDF2800CA57F2 /* SyntaxCheckerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxCheckerTests.swift; sourceTree = "<group>"; };
 		6E4D17F41B8D0C2A0055DCCB /* Retail-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Retail-Bridging-Header.h"; sourceTree = "<group>"; };
 		6E4D17F51B8D0CC30055DCCB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4D17F81B8D0D100055DCCB /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormhole.h; sourceTree = "<group>"; };
+		6E4D17F91B8D0D100055DCCB /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
+		6E4D17FA1B8D0D100055DCCB /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
+		6E4D17FB1B8D0D100055DCCB /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
+		6E4D17FC1B8D0D100055DCCB /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeFileTransiting.h; sourceTree = "<group>"; };
+		6E4D17FD1B8D0D100055DCCB /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeFileTransiting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1070,6 +1070,19 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6E4D17F71B8D0D100055DCCB /* MMWormhole */ = {
+			isa = PBXGroup;
+			children = (
+				6E4D17F81B8D0D100055DCCB /* MMWormhole.h */,
+				6E4D17F91B8D0D100055DCCB /* MMWormhole.m */,
+				6E4D17FA1B8D0D100055DCCB /* MMWormholeCoordinatedFileTransiting.h */,
+				6E4D17FB1B8D0D100055DCCB /* MMWormholeCoordinatedFileTransiting.m */,
+				6E4D17FC1B8D0D100055DCCB /* MMWormholeFileTransiting.h */,
+				6E4D17FD1B8D0D100055DCCB /* MMWormholeFileTransiting.m */,
+			);
+			path = MMWormhole;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1289,6 +1302,8 @@
 				6E2066431B8CDF2800CA57F2 /* UIView+WebCacheOperation.m in Sources */,
 				6E2066221B8CDF2800CA57F2 /* LoginViewController.swift in Sources */,
 				6E2066331B8CDF2800CA57F2 /* RLMSupport.swift in Sources */,
+				6E4D17FE1B8D0D100055DCCB /* MMWormhole.m in Sources */,
+				6E4D18001B8D0D100055DCCB /* MMWormholeFileTransiting.m in Sources */,
 				6E20665F1B8CDF2800CA57F2 /* BeaconManager.swift in Sources */,
 				6E20666D1B8CDF2800CA57F2 /* Utils.swift in Sources */,
 				6E20664C1B8CDF2800CA57F2 /* CompanyDetailsVC.m in Sources */,
@@ -1302,6 +1317,7 @@
 				6E20668F1B8CDF2800CA57F2 /* DataRequest.swift in Sources */,
 				6E2066281B8CDF2800CA57F2 /* LoginDataManager.swift in Sources */,
 				6E2066121B8CDF2800CA57F2 /* AppDelegate.swift in Sources */,
+				6E4D17FF1B8D0D100055DCCB /* MMWormholeCoordinatedFileTransiting.m in Sources */,
 				6E2066831B8CDF2800CA57F2 /* InterfaceController.swift in Sources */,
 				6E2066551B8CDF2800CA57F2 /* XLXtifyOptions.m in Sources */,
 				6E2066661B8CDF2800CA57F2 /* EmptySegue.swift in Sources */,
@@ -1310,7 +1326,6 @@
 				6E20663A1B8CDF2800CA57F2 /* SDWebImageDownloaderOperation.m in Sources */,
 				6E20663C1B8CDF2800CA57F2 /* SDWebImagePrefetcher.m in Sources */,
 				6E20664B1B8CDF2800CA57F2 /* CompanyCustomInbox.m in Sources */,
-				6E20662F1B8CDF2800CA57F2 /* MMWormholeCoordinatedFileTransiting.m in Sources */,
 				6E2066851B8CDF2800CA57F2 /* ListOverviewInterfaceController.swift in Sources */,
 				6E20662A1B8CDF2800CA57F2 /* WLProcedureCaller.swift in Sources */,
 				6E2066511B8CDF2800CA57F2 /* CompanyInboxVC.m in Sources */,
@@ -1326,9 +1341,7 @@
 				6E2066271B8CDF2800CA57F2 /* ListDataManager.swift in Sources */,
 				6E2066161B8CDF2800CA57F2 /* AddToListContainerViewController.swift in Sources */,
 				6E2066231B8CDF2800CA57F2 /* MILWebViewController.swift in Sources */,
-				6E20662E1B8CDF2800CA57F2 /* MMWormhole.m in Sources */,
 				6E20661A1B8CDF2800CA57F2 /* CarouselCollectionViewController.swift in Sources */,
-				6E2066301B8CDF2800CA57F2 /* MMWormholeFileTransiting.m in Sources */,
 				6E2066691B8CDF2800CA57F2 /* MQAExceptionHandler.m in Sources */,
 				6E2066361B8CDF2800CA57F2 /* SDImageCache.m in Sources */,
 				6E2066171B8CDF2800CA57F2 /* AddToListTableViewController.swift in Sources */,
