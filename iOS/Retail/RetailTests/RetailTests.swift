@@ -5,7 +5,7 @@ Licensed Materials - Property of IBM
 import UIKit
 import XCTest
 
-class ReadyAppRetailTests: XCTestCase {
+class RetailTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
