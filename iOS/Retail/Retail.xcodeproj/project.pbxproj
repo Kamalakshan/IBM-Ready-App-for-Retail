@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2EF449461B161E2600F3576A /* Retail WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 2EF449451B161E2600F3576A /* Retail WatchKit App.app */; };
 		34D21B611A8130480085138E /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D21B601A8130480085138E /* libc++.dylib */; };
 		6E2066121B8CDF2800CA57F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2064D71B8CDF2800CA57F2 /* AppDelegate.swift */; };
 		6E2066141B8CDF2800CA57F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2064DA1B8CDF2800CA57F2 /* Main.storyboard */; };
@@ -133,7 +132,6 @@
 		6E2066931B8CDF2800CA57F2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E20660F1B8CDF2800CA57F2 /* Info.plist */; };
 		6E2066961B8CEAFA00CA57F2 /* RetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2066101B8CDF2800CA57F2 /* RetailTests.swift */; };
 		6E2066971B8CEB0A00CA57F2 /* SyntaxCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2066111B8CDF2800CA57F2 /* SyntaxCheckerTests.swift */; };
-		6E4D17F61B8D0CC30055DCCB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D17F51B8D0CC30055DCCB /* Info.plist */; };
 		6E4D17FE1B8D0D100055DCCB /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D17F91B8D0D100055DCCB /* MMWormhole.m */; };
 		6E4D17FF1B8D0D100055DCCB /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D17FB1B8D0D100055DCCB /* MMWormholeCoordinatedFileTransiting.m */; };
 		6E4D18001B8D0D100055DCCB /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D17FD1B8D0D100055DCCB /* MMWormholeFileTransiting.m */; };
@@ -192,7 +190,8 @@
 		6E4D18781B8D14DF0055DCCB /* star_sm_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D185A1B8D14DF0055DCCB /* star_sm_yellow.png */; };
 		6E4D18791B8D14DF0055DCCB /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D185B1B8D14DF0055DCCB /* style.css */; };
 		6E4D187A1B8D14DF0055DCCB /* text-expander.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E4D185C1B8D14DF0055DCCB /* text-expander.js */; };
-		6E4D187B1B8D18290055DCCB /* Retail WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2EF449361B161E2500F3576A /* Retail WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E4D18871B8D1F530055DCCB /* Retail WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 2EF449451B161E2600F3576A /* Retail WatchKit App.app */; };
+		6E4D18891B8D1F5C0055DCCB /* Retail WatchKit Extension.appex in Resources */ = {isa = PBXBuildFile; fileRef = 2EF449361B161E2500F3576A /* Retail WatchKit Extension.appex */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -201,7 +200,7 @@
 			containerPortal = 1B5533B21A5EF9A1006DAECE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1B5533B91A5EF9A1006DAECE;
-			remoteInfo = ReadyAppRetail;
+			remoteInfo = Retail;
 		};
 		2EF449471B161E2600F3576A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -226,7 +225,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6E4D187B1B8D18290055DCCB /* Retail WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,8 +232,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B5533BA1A5EF9A1006DAECE /* ReadyAppRetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadyAppRetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B5533CF1A5EF9A1006DAECE /* ReadyAppRetailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadyAppRetailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5533BA1A5EF9A1006DAECE /* Retail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Retail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5533CF1A5EF9A1006DAECE /* RetailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF449361B161E2500F3576A /* Retail WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Retail WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF449451B161E2600F3576A /* Retail WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retail WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D21B601A8130480085138E /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
@@ -639,8 +637,8 @@
 		1B5533BB1A5EF9A1006DAECE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B5533BA1A5EF9A1006DAECE /* ReadyAppRetail.app */,
-				1B5533CF1A5EF9A1006DAECE /* ReadyAppRetailTests.xctest */,
+				1B5533BA1A5EF9A1006DAECE /* Retail.app */,
+				1B5533CF1A5EF9A1006DAECE /* RetailTests.xctest */,
 				2EF449361B161E2500F3576A /* Retail WatchKit Extension.appex */,
 				2EF449451B161E2600F3576A /* Retail WatchKit App.app */,
 			);
@@ -1271,9 +1269,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B5533B91A5EF9A1006DAECE /* ReadyAppRetail */ = {
+		1B5533B91A5EF9A1006DAECE /* Retail */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B5533D91A5EF9A1006DAECE /* Build configuration list for PBXNativeTarget "ReadyAppRetail" */;
+			buildConfigurationList = 1B5533D91A5EF9A1006DAECE /* Build configuration list for PBXNativeTarget "Retail" */;
 			buildPhases = (
 				1B5533B61A5EF9A1006DAECE /* Sources */,
 				1B5533B71A5EF9A1006DAECE /* Frameworks */,
@@ -1285,14 +1283,14 @@
 			dependencies = (
 				6E4D187D1B8D18290055DCCB /* PBXTargetDependency */,
 			);
-			name = ReadyAppRetail;
-			productName = ReadyAppRetail;
-			productReference = 1B5533BA1A5EF9A1006DAECE /* ReadyAppRetail.app */;
+			name = Retail;
+			productName = Retail;
+			productReference = 1B5533BA1A5EF9A1006DAECE /* Retail.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1B5533CE1A5EF9A1006DAECE /* ReadyAppRetailTests */ = {
+		1B5533CE1A5EF9A1006DAECE /* RetailTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B5533DC1A5EF9A1006DAECE /* Build configuration list for PBXNativeTarget "ReadyAppRetailTests" */;
+			buildConfigurationList = 1B5533DC1A5EF9A1006DAECE /* Build configuration list for PBXNativeTarget "RetailTests" */;
 			buildPhases = (
 				1B5533CB1A5EF9A1006DAECE /* Sources */,
 				1B5533CC1A5EF9A1006DAECE /* Frameworks */,
@@ -1303,9 +1301,9 @@
 			dependencies = (
 				1B5533D11A5EF9A1006DAECE /* PBXTargetDependency */,
 			);
-			name = ReadyAppRetailTests;
-			productName = ReadyAppRetailTests;
-			productReference = 1B5533CF1A5EF9A1006DAECE /* ReadyAppRetailTests.xctest */;
+			name = RetailTests;
+			productName = RetailTests;
+			productReference = 1B5533CF1A5EF9A1006DAECE /* RetailTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2EF449351B161E2500F3576A /* Retail WatchKit Extension */ = {
@@ -1348,7 +1346,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = IBM;
 				TargetAttributes = {
 					1B5533B91A5EF9A1006DAECE = {
@@ -1402,8 +1400,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B5533B91A5EF9A1006DAECE /* ReadyAppRetail */,
-				1B5533CE1A5EF9A1006DAECE /* ReadyAppRetailTests */,
+				1B5533B91A5EF9A1006DAECE /* Retail */,
+				1B5533CE1A5EF9A1006DAECE /* RetailTests */,
 				2EF449351B161E2500F3576A /* Retail WatchKit Extension */,
 				2EF449441B161E2600F3576A /* Retail WatchKit App */,
 			);
@@ -1434,7 +1432,6 @@
 				6E20664D1B8CDF2800CA57F2 /* CompanyDetailsVC.xib in Resources */,
 				6E4D186A1B8D14DF0055DCCB /* index.js in Resources */,
 				6E2066931B8CDF2800CA57F2 /* Info.plist in Resources */,
-				6E4D17F61B8D0CC30055DCCB /* Info.plist in Resources */,
 				6E2066801B8CDF2800CA57F2 /* Images.xcassets in Resources */,
 				6E4D187A1B8D14DF0055DCCB /* text-expander.js in Resources */,
 				6E2066781B8CDF2800CA57F2 /* HorizontalPagedCollectionViewCell.xib in Resources */,
@@ -1444,6 +1441,7 @@
 				6E2066631B8CDF2800CA57F2 /* OFL.txt in Resources */,
 				6E4D180F1B8D14280055DCCB /* Localizable.strings in Resources */,
 				6E4D18751B8D14DF0055DCCB /* star_lg_grey.png in Resources */,
+				6E4D18891B8D1F5C0055DCCB /* Retail WatchKit Extension.appex in Resources */,
 				6E2066571B8CDF2800CA57F2 /* ding.caf in Resources */,
 				6E2066891B8CDF2800CA57F2 /* Info.plist in Resources */,
 				6E4D185E1B8D14DF0055DCCB /* angular-route.js in Resources */,
@@ -1492,7 +1490,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EF449461B161E2600F3576A /* Retail WatchKit App.app in Resources */,
+				6E4D18871B8D1F530055DCCB /* Retail WatchKit App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1624,7 +1622,7 @@
 /* Begin PBXTargetDependency section */
 		1B5533D11A5EF9A1006DAECE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B5533B91A5EF9A1006DAECE /* ReadyAppRetail */;
+			target = 1B5533B91A5EF9A1006DAECE /* Retail */;
 			targetProxy = 1B5533D01A5EF9A1006DAECE /* PBXContainerItemProxy */;
 		};
 		2EF449481B161E2600F3576A /* PBXTargetDependency */ = {
@@ -1834,11 +1832,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReadyAppRetailTests/Info.plist;
+				INFOPLIST_FILE = RetailTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9872228c-d2a4-4fcf-bccf-3a374cf4b08c";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadyAppRetail.app/ReadyAppRetail";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retail.app/Retail";
 			};
 			name = Debug;
 		};
@@ -1852,11 +1850,11 @@
 				);
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
-				INFOPLIST_FILE = ReadyAppRetailTests/Info.plist;
+				INFOPLIST_FILE = RetailTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9872228c-d2a4-4fcf-bccf-3a374cf4b08c";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadyAppRetail.app/ReadyAppRetail";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retail.app/Retail";
 			};
 			name = Release;
 		};
@@ -1976,7 +1974,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B5533D91A5EF9A1006DAECE /* Build configuration list for PBXNativeTarget "ReadyAppRetail" */ = {
+		1B5533D91A5EF9A1006DAECE /* Build configuration list for PBXNativeTarget "Retail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B5533DA1A5EF9A1006DAECE /* Debug */,
@@ -1985,7 +1983,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B5533DC1A5EF9A1006DAECE /* Build configuration list for PBXNativeTarget "ReadyAppRetailTests" */ = {
+		1B5533DC1A5EF9A1006DAECE /* Build configuration list for PBXNativeTarget "RetailTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B5533DD1A5EF9A1006DAECE /* Debug */,

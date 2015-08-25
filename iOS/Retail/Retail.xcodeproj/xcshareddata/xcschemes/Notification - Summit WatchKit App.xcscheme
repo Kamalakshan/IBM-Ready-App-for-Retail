@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0640"
    version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -77,7 +77,7 @@
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "8"
-      notificationPayloadFile = "Summit WatchKit Extension/PushNotificationPayload.apns">
+      notificationPayloadFile = "Retail WatchKit Extension/PushNotificationPayload.apns">
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.springboard"
@@ -109,7 +109,7 @@
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES"
       launchAutomaticallySubstyle = "8"
-      notificationPayloadFile = "Summit WatchKit Extension/PushNotificationPayload.apns">
+      notificationPayloadFile = "Retail WatchKit Extension/PushNotificationPayload.apns">
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.springboard"
